@@ -1,0 +1,77 @@
+.App {
+height: 100vh;
+display: grid;
+grid-template-rows: 50px 1fr;
+}
+.NavBar{
+
+}
+.Canvas{
+  padding: 20px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-rows: 2fr 2fr 25%;
+}
+
+.BoxStyle{
+  border: 2px solid #373F51;
+  background-color: white;
+  padding: 10px;
+}
+
+.How{
+  grid-column: 1/2;
+  grid-row: 1/3;
+
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.KeyPartners{
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+
+
+.What{
+  grid-column: 2/3;
+  grid-row: 1/3;
+  display: grid;
+}
+
+.ValueProposition{
+
+}
+
+.ToWho{
+  grid-column: 3/4;
+  grid-row: 1/3;
+
+
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.CustomerSegments{
+  grid-column: 2/3;
+  grid-row: 1/3;
+  overflow-y: scroll;
+}
+
+.HowMuch{
+  grid-column: 1/4;
+  grid-row: 3/4;
+
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.CostStructure{
+  grid-column: 1/2;
+}
